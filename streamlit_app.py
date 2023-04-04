@@ -1,39 +1,10 @@
-
-
-
-# In[2]:
-
-
 import streamlit as st
-
-
-# In[3]:
-
-
 import pandas as pd
-
-
-# In[4]:
-
-
 import numpy as np
-
-
-# In[5]:
-
-
 import pickle
-
-
-# In[6]:
-
 
 # loading the saved model
 loaded_model = pickle.load(open('trained_model.sav', 'rb'))
-
-
-# In[7]:
-
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
@@ -52,9 +23,6 @@ else:
   print('The person is diabetic')
 
 
-# In[8]:
-
-
 def diabetes_prediction(input_data):
     input_data_as_numpy_array = np.asarray(input_data)
     # reshape the array as we are predicting for one instance
@@ -65,11 +33,6 @@ def diabetes_prediction(input_data):
         return('The person is not diabetic')
     else:
         return('The person is diabetic')
-    
-
-
-# In[10]:
-
 
 def main():
     #giving a title 
