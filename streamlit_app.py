@@ -40,17 +40,18 @@ def main():
     #giving a title 
     st.title('Diabetes Prediction Web App')
     st.text('Made By Raye Haarika')
+    st.write("LinkedIn [link](https://www.linkedin.com/in/raye-haarika/)")
 
     
     #input data fields
-    Pregnancies=st.text_input("number of pregnancies")
+    Pregnancies=st.text_input("Number of Pregnancies")
     Glucose=st.text_input("Glucose level")
-    BloodPressure=st.text_input("blood pressure value:")
-    SkinThickness=st.text_input("Skin thickness value")
+    BloodPressure=st.text_input("Blood Pressure value:")
+    SkinThickness=st.text_input("Skin Thickness value")
     Insulin=st.text_input("Insulin Level")
-    BMI=st.text_input("BMI VALUE")
-    DiabetesPedigreeFunction=st.text_input("diabetes pedigree function")
-    Age=st.text_input("age")
+    BMI=st.text_input("BMI Value")
+    DiabetesPedigreeFunction=st.text_input("Diabetes Pedigree Function")
+    Age=st.text_input("Age")
     
     #code for predicition
     diagnosis=''
