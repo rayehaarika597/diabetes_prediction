@@ -40,7 +40,7 @@ def main():
     #giving a title 
     st.title('Diabetes Prediction Web App')
     st.text('Made By Raye Haarika')
-    st.write("LinkedIn [link](https://www.linkedin.com/in/raye-haarika/)")
+    st.write("[LinkedIn](https://www.linkedin.com/in/raye-haarika/)")
 
     
     #input data fields
